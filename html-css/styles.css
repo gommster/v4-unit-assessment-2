@@ -12,3 +12,144 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(37, 37, 37);
+    height: 100px;
+}
+
+header h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 0 20px;
+    color: rgb(42, 171, 226);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin: 0 20px 0 0;
+    font-weight: 600;
+}
+
+header nav div{
+    color: white;
+    font-size: 20px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+main #left-main{
+    width: 55vw;
+}
+
+main #left-main h2{
+    height: 100px;
+    margin: 20px 0 0 0;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bolder;
+}
+main #left-main p{
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+main #left-main img{
+    width: 225px;
+    margin: 30px;
+}
+
+main #left-main article div{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+main #left-main article div h3{
+    font-size: 25px;
+    margin: 40px 0 0 0;
+}
+
+main #left-main article div a{
+    position: relative;
+    top: 75px;
+}
+
+main #right-main{
+    width: 20vw;
+    margin: 0 0 0 100px;
+    height: auto;
+}
+
+main #right-main #profile{
+    box-shadow: 5px 5px 20px rgba(102, 75, 75, .3), -5px -5px 20px rgba(102, 75, 75, .3);
+    margin: 50px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 10px 0 20px;
+    border-radius: 10px;
+}
+
+main #right-main img{
+    height: 200px;
+}
+
+main #right-main #popArts{
+    box-shadow: 5px 5px 20px rgba(102, 75, 75, .3), -5px -5px 20px rgba(102, 75, 75, .3);
+    margin: 50px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main #right-main #popArts h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main #right-main #popArts ol{
+    margin: 10px 50px;
+    line-height: 25px;
+}
+
+
+footer{
+    background-color: rgb(42, 171, 226);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+footer h3{
+    font-weight: 700;
+    margin: 0 0 0 20px;
+}
+
+footer div{
+    border: solid black 3px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 20px 0 0;
+}
